@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+p, span, a{
+	font-family: 'Comic Sans MS', 'Times New Roman', Times, "隶书", serif;
+}
+body{
+	background-color: bisque;
+}
+hr{
+	width: 30%;
+	position: relative;
+	left: 35%;
+	border: none;
+	height: 0.5px;
+	background-color: #aaa;
+}
+#head{
+	position: absolute;
+	top: 5%;
+	left: 12%;
+	width: 75%;
+}
+#head>p{
+	font-size: 30px;
+}
+.object{
+	position: relative;
+	left: 70%;
+	color: black;
+	margin-left: 270px;
+	color: #aaa;
+}
+.passage{
+	position: absolute;
+	top: 20%;
+	left: 12%;
+	width: 1180px;
+}
+.cells{
+	float: left;
+	margin: 16px;
+	width: 350px;
+	height: 400px;
+}
+.box{
+	position: relative;
+	font-family: 'Comic Sans MS', 'Times New Roman', "楷体", Times, serif;
+	top: -5px;
+	overflow: hidden;
+	height: 73px;
+}
+.smallPic{
+	height: 330px;
+	width: 350px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.title{
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.content{
+	text-align: center;
+	color: #ccc;
+	line-height: 30px;
+}
+.content2{
+	line-height: 25px;
+	font-size: 15px;
+	padding: 10px;
+}

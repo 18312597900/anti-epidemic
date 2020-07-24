@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comic Sans MS', 'Times New Roman', "楷体", Times, serif;
+}
+body{
+	text-align: center;
+	overflow: hidden;
+}
+
+#title{
+	color: #005AB5;
+	font-size: 42px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+}
+#typeWords{
+	color: white;
+	font-size: 32px;
+	position: absolute;
+	top: 45%;
+	left: 43%;
+}
+#down{
+	position: absolute;
+	bottom: 10%;
+	left: 48%;
+}
+#img{
+	height: 50%;
+	width: 50%;
+}

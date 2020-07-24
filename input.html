@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link href="css/input.css" type="text/css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<article>
+		<p>校园防疫</p>
+		<section>
+			<form id="aform">
+				<fieldset class="bform" >
+					<legend>病例或疑似病例输入</legend>
+			<table align="center" border="8" width="398">
+				<tr>
+					<td>职称：</td>
+					<td>
+					<input type="radio" name="se" value="学生" checked/>学生
+					<input type="radio" name="se" value="教师" />教师
+					</td>
+				</tr>
+				<tr>
+					<td>学号或工号：</td>
+					<td><input type="text"/></td>
+				</tr>
+				<tr>
+					<td>姓名：</td>
+					<td><input type="text"/></td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td>
+					<input type="radio" name="sex" value="男" checked/>男
+					<input type="radio" name="sex" value="女" />女
+					</td>
+				</tr>
+				<tr>
+					<td>状态：</td>
+					<td>
+					<input type="radio" name="s" value="确诊" checked/>确诊
+					<input type="radio" name="s" value="疑似" />疑似
+					<input type="radio" name="s" value="已治愈" />已治愈
+					<input type="radio" name="s" value="已死亡" />已死亡
+					</td>
+				</tr>
+				<tr>
+					<td>所属二级学院：</td>
+					<td><select size="1" name="Diagnosis">
+					<option>教育科学学院</option><option>法政学院</option>
+					<option>文学与传媒学院</option><option>外国语学院</option>
+					<option>音乐与舞蹈学院</option><option>商学院</option>
+					<option>数学与统计学院</option><option>信息工程学院</option>
+					<option>生命科学与技术学院</option><option>体育科学学院</option>
+					<option>物理科学与技术学院</option><option>化学化工学院</option>
+					option>美术与设计学院</option><option>机电工程学院</option>
+					</select></td>
+				</tr>
+			</table>
+
+				</br>
+			<button type="button" style="color:red" autofocus>确认</button> 
+				</fieldset>
+				<fieldset class="aleaving">
+					<legend>温馨提示</legend>
+					本服务相关数据在不断完善中，同时考虑到疫情传播的复杂性，不排除还有尚未掌握的其他方面因素，为了更好地防控疫情，请确保信息录入的真实性。
+				</fieldset>
+			</form>
+		</section>
+	</article>
+</body>
+</html>
